@@ -18,7 +18,7 @@ def plot(X_train, y_train, X_test, y_test, y_preds, data_size, function_type, hi
     plt.xlabel('x values')
     plt.legend()
     plt.show()
-
+    '''
     deltas = np.zeros(len(hidden_nodes))
     for n in hidden_nodes:
         deltas[n-1] = G.node[n]['delta']
@@ -33,4 +33,5 @@ def plot(X_train, y_train, X_test, y_test, y_preds, data_size, function_type, hi
     plt.plot(hidden_nodes, total_weights)
     plt.ylabel('Total absolute weight of all incoming connections')
     plt.xlabel('Node number: node 0 is input, max(node) is output')
-    plt.show()
+    plt.show()'''
+    return
